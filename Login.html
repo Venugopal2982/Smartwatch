@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="popper.min.js">
+  <link rel="stylesheet" href="jquery-3.7.1.min.js">
+  <link rel="stylesheet" href="bootstrap.js">
+  <title>Login Page</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(90deg, rgba(75, 14, 154, 1) 35%, rgba(0, 212, 255, 1)100%);
+      font-family: sans-serif;
+    }
+
+    form {
+      width: 24%;
+      background-color: white;
+      padding: 50px;
+      margin: 50px;
+      border-radius: 20px;
+    }
+
+    h2 {
+      color: black;
+      text-align: center;
+    }
+
+    .btn-primary {
+      color: white;
+      font-size: 20px;
+      border: none;
+      border-radius: 5px;
+      background: linear-gradient(90deg, rgba(75, 14, 154, 1) 35%, rgba(0, 212, 255, 1)100%);
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <form class="mx-auto">
+      <h2><b>LOGIN</b></h2><br>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email <span class="text-danger">*</span></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Email" required>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password <span class="text-danger">*</span></label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+      </div><br>
+      <div class="text-center fs-6">
+        <a href="#">Forget password?</a> or <a href="Registration.html">Sign Up</a>
+      </div><br>
+      <button type="submit" class="btn btn-primary"><a href="index.html">Login</a></button> <br> <br>
+    </form>
+  </div>
+</body>
+
+</html>
